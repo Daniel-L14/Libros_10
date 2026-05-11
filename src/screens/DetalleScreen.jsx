@@ -31,7 +31,7 @@ export default function DetalleScreen({ route }) {
       <Text style={styles.descargas}>Descargas: {book.download_count}</Text>
 
       <TouchableOpacity style={styles.boton} onPress={() => addFavorite(book)}>
-        <Text style={styles.botonTexto}>Agregar a favoritos</Text>
+        <Text style={styles.botonTexto}>Agregar a FAVORITOS</Text>
       </TouchableOpacity>
     </View>
   );
